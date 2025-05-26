@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+    <!-- START NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" class="text-sm-center"><img src="/images/logo.svg" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                All Categories
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">All Categories</a></li>
+                                <li><a class="dropdown-item" href="#">Groceries</a></li>
+                                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                                <li><a class="dropdown-item" href="#">Chocolates</a></li>
+                            </ul>
+                        </li>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search"
+                                placeholder="Search for more than 20,000 products" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item">
+
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ABOUT US</a></li>
+                                <li><a class="dropdown-item" href="#">SHOAP</a></li>
+                                <li><a class="dropdown-item" href="#">SINGLE PRODUCT</a></li>
+                                <li><a class="dropdown-item" href="#">CART</a></li>
+                                <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+                                <li><a class="dropdown-item" href="#">BLOG</a></li>
+                                <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                                <li><a class="dropdown-item" href="#">STYLES</a></li>
+                                <li><a class="dropdown-item" href="#">CONTECT</a></li>
+                                <li><a class="dropdown-item" href="#">THANK YOU</a></li>
+                                <li><a class="dropdown-item" href="#">MY ACCOUNT</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- NAVBAR ICONS -->
+                    <div class="icon">
+                        <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+                        <a href="#"><i class="fa-regular fa-bookmark"></i></a>
+                        <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- NAVBAR END -->
+
+
+
+    <section class="main" data-aos="zoom-in-down">
+        <div class="container-fluid">
+            <div class="hero row">
+                <div class="main-box">
+                    <div class="col-lg-10 m-4">
+                        <!-- Main Headding -->
+                        <h1 class="testhead"><span style="color: #6BB252;;">Organic</span> Foods<br>
+                            at your <br> Doorsteps</h1>
+                        <!-- Main Headding -->
+                        <p style="color: gray;" class="ms-5 fs-3">Dignissim massa diam elementum.</p>
+                        <a href="#"><button id="btn-1" class="btn rounded-5 btn-success p-3 ms-5">START
+                                SHOPPING</button></a>
+                        <a href="#"><button id="btn-2" class="btn rounded-5 btn-dark p-3">JOIN NOW</button></a>
+                    </div>
+
+
+                    <div class="details ms-5">
+                        <div class="row gy-3">
+                            <div class="col-lg-4 col-md-4 col-sm-4 fs-1 fw-bold">14k+
+                                <div class="prg fs-5 fw-lighter">
+                                    <p>Product Varieties</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 fs-1 fw-bold">50k+
+                                <div class="prg fs-5 fw-lighter">
+                                    <p>Happy Customers</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 fs-1 fw-bold">10k+
+                                <div class="prg fs-5 fw-lighter">
+                                    <p>Store Locations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="three-box row">
+                        <div id="box1" class="col-lg-4 col-md-9 col-sm-9 p-3 row">
+                            <div class="col-lg-3">
+                                <i class="fa-solid fa-rotate"></i>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="prg">
+                                    <span>Fresh from farm</span>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="box2" class="col-lg-4 col-md-9 col-sm-9 p-3 row">
+                            <div class="col-lg-3">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="prg">
+                                    <span>Fresh from farm</span>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="box3" class="col-lg-4 col-md-9 col-sm-9 p-3 row">
+                            <div class="col-lg-3">
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="prg">
+                                    <span>Fresh from farm</span>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="selling-product">
+                    <h2>Best selling products<span><a href="#"><button id="btn-3" class="btn rounded-2 btn-success">view
+                                    all</button></a></span>
+                    </h2>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-1.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-2.png" class="img-fluid" alt="">
+                        <p>Whole Grain Oatmeal</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(41)</span></p>
+                        <p><del style="color: gray;">$54.00</del> <b>$50.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-3.png" class="img-fluid" alt="">
+                        <p>Sharp Cheddar Cheese <br> Block</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(32)</span></p>
+                        <p><del style="color: gray;">$14.00</del> <b>$12.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-4.png" class="img-fluid" alt="">
+                        <p>Organic Baby Spinach</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-5.png" class="img-fluid" alt="">
+                        <p>Organic Spinach Leaves <br> (Fresh Produce)</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-6.png" class="img-fluid" alt="">
+                        <p>Fresh Salmon</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-7.png" class="img-fluid" alt="">
+                        <p>Imported Italian Spaghetti <br> Pasta</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-8.png" class="img-fluid" alt="">
+                        <p>Granny Smith Apples</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-9.png" class="img-fluid" alt="">
+                        <p>Organic 2% Reduced Fat <br> Milk</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-10.png" class="img-fluid" alt="">
+                        <p>Greek Style Plain Yogurt</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mb-4" data-aos="zoom-out">
+                <div class="card sale-card p-4" style="color: white; border-radius: 0%; ">
+                    <div class="card-body">
+                        <h5 class="card-title ms-3">Items on SALE</h5>
+                        <p class="card-text ms-3">Discounts up to 30%</p>
+                        <a href="#" class="btn btn-light ms-3">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" data-aos="zoom-out">
+                <div class="card combo-card p-4" style="color: white; border-radius: 0%;">
+                    <div class="card-body">
+                        <h5 class="card-title ms-3">Combo offers</h5>
+                        <p class="card-text ms-3">Discounts up to 50%</p>
+                        <a href="#" class="btn btn-light ms-3">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4" data-aos="zoom-out">
+                <div class="card coupon-card p-4" style="color: white; border-radius: 0%;">
+                    <div class="card-body">
+                        <h5 class="card-title ms-2">Discount Coupons</h5>
+                        <p class="card-text ms-3">Discounts up to 40%</p>
+                        <a href="#" class="btn btn-light ms-3">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="selling-product">
+                    <h2>Featured products<span><a href="#"><button id="btn-3" class="btn rounded-2 btn-success">view
+                                    all</button></a></span>
+                    </h2>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-11.png" class="img-fluid" alt="">
+                        <p>greek style plain Yogurt</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-12.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-13.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-14.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2 text-center">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="main-3" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div class="container">
+            <div class="row">
+                <div class="form col-12" style="padding-top: 10%; padding-bottom: 10%;">
+                    <div class="info row">
+                        <div class="col-5 col-md-6 col-sm-12">
+                            <div class="dic">
+                                <h2 class="discount ms-4" style="color: white;">Get 25% Discount <br> on your first
+                                    purchase</h2>
+                                <p class="ms-4" style="color: white;">Just Sign Up & Register it now to become member.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-sm-12 text-center align-self- dtls">
+                            <form action="">
+                                <input class="p-1 m-2" type="text" placeholder="Name">
+
+                                <input class="p-1 m-2" type="text" placeholder="Email Address">
+
+                                <a href="#"><button class="btn rounded btn-dark m-2">Submit</button></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="selling-product">
+                    <h2>Most popular products<span><a href="#"><button id="btn-3" class="btn rounded-2 btn-success">view
+                                    all</button></a></span>
+                    </h2>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-15.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-16.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-17.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-18.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2 text-center">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="selling-product">
+                    <h2>Just arrived<span><a href="#"><button id="btn-3" class="btn rounded-2 btn-success">view
+                                    all</button></a></span>
+                    </h2>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-20.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-21.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-22.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in-down">
+                    <div class="box text-center p-2">
+                        <img src="/images/product-thumb-23.png" class="img-fluid" alt="">
+                        <p>Whole Wheat Sandwhich <br>Bread</p>
+                        <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                class="fa-solid fa-star-half-stroke"></i> <span style="color: black;">(222)</span></p>
+                        <p><del style="color: gray;">$24.00</del> <b>$18.00</b> <span
+                                style="border: 1px solid grey; color: grey;" class="p-1">10% Off</span>
+                        </p>
+                        <div class="hidcont p-2 text-center">
+                            <button class="btn rounded-2 btn-success"><i class="fa-solid fa-cart-shopping"></i> Add To
+                                Cart</button>
+                            <span style="border: 1px solid black" class="p-2 rounded-2"><i
+                                    class="fa-regular fa-heart"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main-4 mb-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="selling-product">
+                        <h2>Our Recent Blog<span><a href="#"><button id="btn-3" class="btn rounded-2 btn-success">view
+                                        all</button></a></span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="clothes border text-center p-2">
+                        <img src="/images/images.jpg.2.jpg" alt="" class="img-fluid">
+                        <div class="text-start">
+                            <p style="color: grey;"><i class="fa-solid fa-calendar"></i> 22 AUG 2022 <i
+                                    class="fa-solid fa-folder"></i> Tips and
+                                tricks</p>
+                            <h3>Top 10 casual look ideas to dress up your kids</h3>
+                            <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                                velit debitis ipsam tempore
+                                rerum quidem at omnis, magnam facilis veniam totam voluptates, officia hic, nesciunt
+                                doloribus quis vel corporis iusto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="clothes border text-center p-2">
+                        <img src="/images/images.jpg.3.jpg" alt="" class="img-fluid">
+                        <div class="text-start">
+                            <p style="color: grey;"><i class="fa-solid fa-calendar"></i> 22 AUG 2022 <i
+                                    class="fa-solid fa-folder"></i> Tips and
+                                tricks</p>
+                            <h3>Latest trends of wearing street wears supremely</h3>
+                            <p style="color: gray;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum
+                                illum nostrum explicabo
+                                accusantium molestiae. Illo nisi nobis mollitia neque ratione quod quaerat voluptatum,
+                                aut
+                                impedit atque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left">
+                    <div class="clothes border text-center p-2">
+                        <img src="/images/images.jpg.1.jpg" alt="" class="img-fluid">
+                        <div class="text-start">
+                            <p style="color: grey;"><i class="fa-solid fa-calendar"></i> 22 AUG 2022 <i
+                                    class="fa-solid fa-folder"></i> Tips and
+                                tricks</p>
+                            <h3>10 Different Types of comfortable clothes ideas for women</h3>
+                            <p style="color: gray;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum
+                                illum nostrum explicabo
+                                accusantium molestiae. Illo nisi nobis mollitia neque ratione quod quaerat voluptatum,
+                                aut
+                                impedit atque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="main" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="doa">
+                        <div class="container row">
+                            <div class="doa-1 col-lg-6 p-3">
+                                <h3>Download Organic App</h3>
+                                <p>Online Orders made easy, fast and reliable</p>
+                                <img src="/images/img-app-store.png" alt="" class="img-fluid">
+                                <img src="/images/img-google-play.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-lg-5 p-3">
+                                <img src="/images/banner-onlineapp.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="main p-5 m-5">
+        <div class="container">
+            <div class="row last-card">
+                <div class="col">
+                    <div class="points p-2 mb-2">
+                        <i class="fa-solid fa-truck"></i>
+                        <br><br>
+                        <h4>Free delivery</h4>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="points p-2 mb-2">
+                        <i class="fa-solid fa-lock"></i>
+                        <br><br>
+                        <h4>100% secure payment</h4>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="points p-2 mb-2">
+                        <i class="fa-regular fa-square-check"></i>
+                        <br><br>
+                        <h4>Quality guarantee</h4>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="points p-2 mb-2">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <br><br>
+                        <h4>guaranteed savings</h4>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="points p-2 mb-2">
+                        <i class="fa-solid fa-gift"></i>
+                        <br><br>
+                        <h4>Daily offers</h4>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="main mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="foot-point">
+                        <img src="/images/logo.svg" alt="" class="img-fluid">
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook border p-2 mt-4"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter border p-2 mt-4 "></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram border p-2 mt-4 "></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest border p-2 mt-4 "></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube border p-2 mt-4 "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="foot-point">
+                        <h4>Organic</h4>
+                        <h6><a href="#">About us</a></h6>
+                        <h6><a href="#">Conditions</a></h6>
+                        <h6><a href="#">Our Journals</a></h6>
+                        <h6><a href="#">Careers</a></h6>
+                        <h6><a href="#">Affiliate Programme</a></h6>
+                        <h6><a href="#">Ultras Press</a></h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="foot-point">
+                        <h4>Quick Links</h4>
+                        <h6><a href="#">Offers</a></h6>
+                        <h6><a href="#">OffersDiscount Coupons</a></h6>
+                        <h6><a href="#">Stores</a></h6>
+                        <h6><a href="#">Track Order</a></h6>
+                        <h6><a href="#">Shop</a></h6>
+                        <h6><a href="#">Info</a></h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="foot-point">
+                        <h4>Customer Service</h4>
+                        <h6><a href="#">FAQ</a></h6>
+                        <h6><a href="#">Contact</a></h6>
+                        <h6><a href="#">Privacy Policy</a></h6>
+                        <h6><a href="#">Returns & Refunds</a></h6>
+                        <h6><a href="#">Cookie Guidelines</a></h6>
+                        <h6><a href="#">Delivery Information</a></h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="foot-point">
+                        <h4>Subscribe Us</h4>
+                        <p>Subscribe to our newsletter to get updates about our grand offers.</p>
+                        <input type="email" placeholder="Email Address" class="p-1" style="width: 50%;"><a
+                            href="#"><button class="btn btn-dark rounded-2">Subscribe</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="text-secondary">© 2025 Organic. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    padding: 0%;
+    margin: 0%;
+}
+.nav-link{
+    margin-left: 50px;
+}
+
+.icon i{
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: x-large;
+    font-weight: 2px;
+    color: black;
+}
+.hero{
+    background-image:url('/images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero .col-lg-10 h1{
+    font-size: 15vh;
+    /* font-weight: 700; */
+}
+.hero h1{
+    margin-left: 70px;
+}
+@media(max-width: 432px){
+    .hero .col-lg-10 h1{
+        font-size: 10vh;
+    }
+    
+}
+@media(max-width: 576px){
+    .hero .col-lg-10
+     h1{
+        font-size: 10vh;
+    }
+    
+}
+#btn-1{
+    font-size: 18px;
+    border: none;
+    margin-right: 20px;
+    background-color: #6BB252;
+}
+@media(max-width: 700px){
+    #btn-1{
+        margin-right: 8px;
+    }
+}
+#btn-2{
+    font-size: 18px;
+    border: none;
+}
+#btn-1:hover{
+    background-color: orange;
+    color: #f0f0f0;
+}
+.hidcont .btn{
+    background-color: #6BB252;
+}
+.container .three-box{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+.three-box i{
+    /* float: left; */
+    margin-top: 4%;
+    margin-right: 3px;
+    font-size: 50px;
+    color: #f0f0f0;
+}
+.three-box #box1{
+   background-color: #6BB252;
+   color: #f0f0f0;
+}
+.three-box #box2{
+    background-color: #364127;
+    color: #f0f0f0;
+}
+.three-box #box3{
+    background-color: #F95F09;
+    color: #f0f0f0;
+}
+.category{
+    display: flex;
+}
+#btn-3:hover{
+    background-color: orange;
+    color: #f0f0f0;
+}
+#btn-3{
+    font-size: 18px;
+    border: none;
+    background-color: #6BB252;
+}   
+.col-md-5{
+    display: flex;
+}
+.category-1{
+    font-size: 4rem;
+}
+.category-2{
+    float: right;
+    margin-left: 55rem;
+}
+@media(max-width: 700px){
+    .category-2{
+        margin-left: 11rem;
+    }
+}
+.details{
+    display: flex;
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.box{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box:hover{
+    box-shadow: 0 0 15px rgb(138, 138, 138);
+}
+
+.box .hidcont{
+    display: none;
+}
+.box:hover .hidcont{
+    display: block;
+}
+.rating{
+    color: #f39c12;
+}
+.hidcont button:hover{
+    background-color: #f39c12;
+    color: #fff;
+    cursor: pointer; 
+}
+.hidcont span:hover{
+    background-color: black;
+    color: #fff;   
+}
+.selling-product span{
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+.selling-product span button:hover{
+    background-color: #f39c12;
+    color: #fff;
+    cursor: pointer; 
+}
+.selling-product{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.row button{
+    border: none;
+}
+.selling-product h2{
+    font-size: 32px;
+    font-weight: bold;
+   
+}
+
+
+/* three card combo */
+.card{
+    color: white;
+}
+.sale-card{
+    background-image: url('/images/banner-ad-1.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.combo-card{
+    background-image: url('/images/banner-ad-2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coupon-card{
+    background-image: url('/images/banner-ad-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* from card */
+.info{
+    background-image: url('/images/banner-newsletter.jpg');
+    padding: 50px;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+}
+.dic h2{
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 400;
+}
+.info input{
+    width: 400px;
+}
+.info button{
+    width: 400px;
+}
+@media screen and (max-width: 600px) {
+      .main-3{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .info input{
+         width: 150px;
+      }
+      .info button{
+        width: 150px;
+      }
+      .dic h2{
+        font-size: small;
+        font-weight: 150;
+      }
+      .dic p{
+        font-size: x-small;
+        font-weight: 70;
+      }
+}
+
+/* clothes post */
+.clothes h3{
+    font-weight: 700;
+    font-size: calc(1.3rem + .6vw);
+}
+  
+/* download organic aap */
+.doa{
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 193, 7, 1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.doa .doa-1{ 
+    margin-top:80px;
+}
+.doa h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.last-card{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.points{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+.points i{
+    font-size: 30px;
+    color: lightgray;
+}
+.foot-point a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .main .main-box .testhead{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
