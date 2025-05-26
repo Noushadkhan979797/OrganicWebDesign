@@ -182,19 +182,19 @@
     color: white;
 }
 .sale-card{
-    background-image: url('/images/banner-ad-1.jpg'); 
+    background-image: url('images/banner-ad-1.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .combo-card{
-    background-image: url('/images/banner-ad-2.jpg'); 
+    background-image: url('images/banner-ad-2.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .coupon-card{
-    background-image: url('/images/banner-ad-3.jpg');
+    background-image: url('images/banner-ad-3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -202,7 +202,7 @@
 
 /* from card */
 .info{
-    background-image: url('/images/banner-newsletter.jpg');
+    background-image: url('images/banner-newsletter.jpg');
     padding: 50px;
     background-size: cover;
     display: flex;
